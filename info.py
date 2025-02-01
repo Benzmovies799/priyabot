@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://graph.org/file/3742cab9cc16bb6660cbb-45d440110eb0892348.jpg https://graph.org/file/6ddad97b9d5849936f2a3-ece9137217ff3a186f.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/s1a.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/09320f6074b5aeb2b9023-edf4a1129e9e6c4a8f.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/91890b886eec67d9f40a4-9c3a201c1ddeaa3935.jpg')).split()
