@@ -13,28 +13,28 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '16582302'))
+API_HASH = environ.get('API_HASH', '336ae5acc37e4031e98ca682557cca66')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6924212052:AAER_CxTOmjZ83HF8rZFfAiBr-njuk98uUo')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1337013299').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/djreme") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/benzmawa") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/PriyaMovis_Group')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+veG2PpVpZQ03ZDYx')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Benzmawa:Benz@cluster0.rh8li.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files_Channel')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001981616450'))  # set shortner log channel
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001942699601'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001830080813')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
@@ -43,14 +43,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/PriyaBotUpdates/270")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/PriyaBotUpdates/270")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtosolvelinks/4")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/6bdfcc98d1317336a4f5e-a01acc33113696e056.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "71e1bb5fe24bcb9bef53ce57fb8cfb2b6bf2d19d")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'atglinks.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "71e1bb5fe24bcb9bef53ce57fb8cfb2b6bf2d19d")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'atglinks.com')
+SHORTENER_API = environ.get("SHORTENER_API", "55f4c7d964ebb8ef7bf3dda75185e4aca870c285")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Shrinkearn.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "55f4c7d964ebb8ef7bf3dda75185e4aca870c285")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Shrinkearn.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
@@ -107,7 +107,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://underground-althea-priya1-49e9430a.koyeb.app/")
+URL = environ.get("FQDN", "https://prime-maisie-router-c54ed9e5.koyeb.app/")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -144,7 +144,7 @@ admin_cmds = [
     "/delreq", "/channel", "/del_file", "/delete",
     "/deletefiles", "/deleteall", 
     "All These Commands Can Be Used Only By Admins.", 
-    "⚡ powered by @PriyaMovis"
+    "⚡ powered by @Benzmovies"
 ]
 
 cmds = [
