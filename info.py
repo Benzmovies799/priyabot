@@ -46,7 +46,7 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtosolvelinks/4")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/howtosolvelinks/20")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtosolvelinks/2")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/6bdfcc98d1317336a4f5e-a01acc33113696e056.jpg")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/6oC.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "55f4c7d964ebb8ef7bf3dda75185e4aca870c285")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Shrinkearn.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "4801b49273fe6f3d078705acf2202221445bac07")
@@ -69,11 +69,11 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/s1a.jpg https://envs.sh/mdw.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/mdw.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/09320f6074b5aeb2b9023-edf4a1129e9e6c4a8f.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/91890b886eec67d9f40a4-9c3a201c1ddeaa3935.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/3292318e002c33e2f9831-11911aafc2de78bbca.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/6oR.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
